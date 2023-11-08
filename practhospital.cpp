@@ -80,7 +80,7 @@ float calc_prom(cama camas [][2])
     return (float) suma_edades / 4; 
 } 
 
-void mostrarxdiasinter(cama camas[][2]){
+void mostrarxdiasint(cama camas[][2]){
     cout<<"pacientes con mas de cinco dias de internacion"<<endl;
     for (int i=0; i<2; i++){
         for (int j=0; j<2; j++){
@@ -112,7 +112,7 @@ int main(){
 
     // tipo nombre;
     cout<<"Promedio: "<<calc_prom(camas);
-    mostrarxdiasinter (camas);
+    mostrarxdiasint (camas);
     cout<<"Ingrese la posicion que desea ver"<<endl;
     int f,c;
     cout<<"Fila: ";
